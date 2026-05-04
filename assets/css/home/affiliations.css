@@ -1,0 +1,27 @@
+.affiliations-container {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 0;
+}
+
+.affiliations-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* align vertically */
+    gap: 2rem; /* spacing between logos */
+}
+
+.affiliations-logos img {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+
+.affiliations-logos img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}

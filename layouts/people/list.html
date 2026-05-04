@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+  {{ with site.GetPage "people/team_leader" }}
+    {{ partial "people/team_leader.html" . }}
+  {{ end }}
+
+  {{ with site.GetPage "people/team" }}
+    {{ partial "people/team.html" . }}
+  {{ end }}
+
+{{ end }}

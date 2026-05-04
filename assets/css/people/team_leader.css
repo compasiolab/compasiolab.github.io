@@ -1,0 +1,84 @@
+.title {
+    font-size: 2.2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    gap: 2.5rem;
+    align-items: start;
+}
+
+/* SIDEBAR (PHOTO, INFO, LINKS) */
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+.photo-container {
+    width: 360px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.photo {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.role {
+    font-style: italic;
+    margin: 2px 0 6px;
+    color: #6b6b6b;
+    font-size: 0.95rem;
+}
+
+.affiliations {
+    border-top: 1px solid #ddd;
+    padding-top: 0.75rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+.affiliations p {
+    margin: 0.3rem 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.links {
+    display: flex;
+    /* justify-content: center; */
+    gap: 0.75rem;
+    margin-top: 1.2rem;
+    margin-bottom: -1rem;
+}
+
+.links a {
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.links a:hover {
+    color: #000;
+}
+
+/* CONTENT (BIO, DETAILED INFO) */
+
+.bio {
+    line-height: 1.6;
+}

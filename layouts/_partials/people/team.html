@@ -1,0 +1,29 @@
+<section>
+
+    <h1>{{ .Title }}</h1>
+
+    <div class="team-grid">
+        {{ range .Params.team }}
+
+        <div class="team-card">
+            <img src="{{ .image }}" class="team-img">
+
+            <div class="team-info">
+                <h3>{{ .name }}</h3>
+                <p class="team-role">{{ .role }}</p>
+                <p>{{ .description }}</p>
+
+                <div class="team-icons">
+                    {{ range .links }}
+                    <a href="{{ .url }}" title="{{ .name }}" aria-label="{{ .name }}">
+                        <i class="{{ .icon }}"></i>
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+
+        {{ end }}
+    </div>
+
+</section>

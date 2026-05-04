@@ -1,0 +1,44 @@
+<section>
+
+  <h1 class="title">
+    {{ .Title }}
+  </h1>
+
+  <div class="container">
+    <aside class="sidebar-container">
+
+      <div class="photo-container">
+        <img class="photo" src="{{ .Params.image | relURL }}">
+      </div>
+
+      <h2 class="name">{{ .Params.name }}</h2>
+      <p class="role">{{ .Params.role }}</p>
+
+      <div class="affiliations">
+        {{ range .Params.affiliations }}
+        <p>
+          <i class="{{ .icon }}"></i>
+          {{ .name }}
+        </p>
+        {{ end }}
+      </div>
+
+      <div class="links">
+        {{ range .Params.links }}
+        <a href="{{ .url }}" title="{{ .name }}">
+          <i class="{{ .icon }}"></i>
+        </a>
+        {{ end }}
+      </div>
+
+    </aside>
+
+    <div class="content-container">
+
+      <div class="bio">
+        {{ .Params.bio | markdownify }}
+      </div>
+
+    </div>
+  </div>
+</section>

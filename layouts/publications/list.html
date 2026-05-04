@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ $pubs := sort .Params.publications "date" "desc" }}
+
+{{ $currentYear := "" }}
+
+{{ range $pubs }}
+
+  {{ $year := (time .date).Year }}
+
+  {{ if ne $year $currentYear }}
+    <h2 class="pub-year">{{ $year }}</h2>
+    <hr>
+    {{ $currentYear = $year }}
+  {{ end }}
+
+  <a href="{{ .link }}" class="pub-link" target="_blank" rel="noopener">
+
+    <div class="pub-item">
+
+      {{ with .image }}
+      <div class="pub-img-container">
+        <img src="{{ . }}" class="pub-img">
+      </div>
+      {{ end }}
+
+      <div class="pub-text">
+        <h3>{{ .title }}</h3>
+
+        <p class="authors">
+          {{ .authors }}
+        </p>
+
+        <p class="journal">
+          <b>{{ .journal }}</b> ({{ $year }})
+        </p>
+      </div>
+
+    </div>
+  </a>
+
+{{ end }}
+
+{{ end }}

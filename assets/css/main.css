@@ -1,0 +1,53 @@
+@import "components/header.css";
+@import "components/footer.css";
+
+@import "home/affiliations.css";
+@import "home/hero.css";
+@import "people/team_leader.css";
+@import "people/team.css";
+@import "publications/publications.css";
+@import "contact/contact.css";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  color: #222222;
+  font-family: sans-serif;
+  line-height: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #851857;
+}
+
+p {
+  color: #222222;
+}
+
+main {
+  flex: 1;
+
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+a {
+  color: #851857;
+  text-decoration: none;
+}
+
+section {
+  padding-bottom: 4rem;
+  padding-top: 1rem;
+}
+
+section:not(:first-child) {
+  border-top: 1px solid #ddd;
+}

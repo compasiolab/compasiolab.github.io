@@ -1,0 +1,48 @@
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 60px;
+}
+
+.team-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.team-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.team-info h3 {
+    color: #000;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.team-role {
+    color: #6b6b6b;
+    padding-top: 4pt;
+}
+
+.team-info p {
+    margin: 0 0 8px;
+    font-size: 0.95rem;
+}
+
+.team-icons {
+    padding-top: 1pt;
+}
+
+.team-icons a {
+    margin-right: 10px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.team-icons a:hover {
+    color: #000;
+}
