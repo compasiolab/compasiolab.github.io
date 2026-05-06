@@ -13,9 +13,8 @@
 }
 
 .affiliations-logos img {
-    max-width: 400px;
-    height: 100px;
-    width: auto;
+    max-width: 60%; /* never exceed container */
+    max-height: 100px;
     object-fit: contain;
     filter: grayscale(100%);
     opacity: 0.8;
