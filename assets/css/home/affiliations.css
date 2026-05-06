@@ -25,3 +25,9 @@
     filter: grayscale(0%);
     opacity: 1;
 }
+
+@media (max-width: 600px) {
+    .affiliations-logos {
+        flex-direction: column;
+    }
+}
