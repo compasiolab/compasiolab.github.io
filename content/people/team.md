@@ -26,7 +26,7 @@ team:
   - name: "Federica Blengini"
     role: "Biomedical Engineer"
     description: "IHC Quantification & Spatial Analysis"
-    image:  "/people/Federica_Blengini.jpeg"
+    image:  "/people/Federica_Blengini.png"
     links:
       - name: "LinkedIn"
         url: "https://it.linkedin.com/in/federica-blengini-4a0720211"
