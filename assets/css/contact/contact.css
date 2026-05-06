@@ -2,7 +2,7 @@
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 10px;
+    gap: 1rem  4rem;
     align-items: start;
     margin-top: 2rem;
     /* align-items: center; */
@@ -16,6 +16,10 @@
 }
 
 /* left column */
+.contact-info {
+    padding-bottom: 2rem;
+}
+
 .contact-info h2 {
     margin-top: 0px;
 }
