@@ -8,12 +8,9 @@
 @import "publications/publications.css";
 @import "contact/contact.css";
 
-html {
-  overflow-y: overlay; /* this overlays the scrollbar. warning, works only on some browsers */
-}
-
 html,
 body {
+  width: 100%;
   height: 100%;
   margin: 0;
 }
