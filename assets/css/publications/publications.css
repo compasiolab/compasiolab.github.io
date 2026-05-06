@@ -28,7 +28,9 @@
 }
 
 .pub-img-container {
-    width: 140px;
+    /* use width 180 height 140 for graphical abstract */
+    /* use width 110 height 140 for journal cover */
+    width: 110px;
     height: 140px;
     border-radius: 6px;
     overflow: hidden;
@@ -42,7 +44,7 @@
 .pub-img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover; /* contain: puts margins; cover: fills box */
 }
 
 .pub-text h3 {
@@ -53,4 +55,40 @@
 .pub-text p {
     margin: 0 0 6px;
     font-size: 0.95rem;
+}
+
+/* TAGS */
+
+.pub-tags {
+    margin-top: 1rem;
+}
+
+.pub-tag {
+    padding: 2px 8px; /* padding of words from tag bubble */
+    margin-right: 6px; /* margin between different tags */
+    font-size: 0.75rem;
+    border-radius: 6px;
+
+    /* default tag styling */
+    background-color: #eee;
+    color: #333;
+}
+
+/* Specific tags */
+/* these have a specific colour/styling */
+
+.pub-tag-article {
+    background-color: #dbeafe;
+    color: #1e3a8a;
+}
+
+.pub-tag-abstract {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.pub-tag-literature-review {
+    background-color: #dcfce748;
+    border: 1px solid #166534;
+    color: #166534;
 }

@@ -36,6 +36,16 @@
         <p class="journal">
           <b>{{ .journal }}</b> ({{ $year }})
         </p>
+
+        {{ with .tags }}
+        <div class="pub-tags">
+          {{ range . }}
+          <span class="pub-tag pub-tag-{{ . | urlize }}">
+            {{ . }}
+          </span>
+          {{ end }}
+        </div>
+        {{ end }}
       </div>
 
     </div>
