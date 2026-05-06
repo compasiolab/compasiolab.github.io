@@ -3,22 +3,21 @@
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 360px 1fr;
-    gap: 2.5rem;
-    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem 3rem; /* row-gap column-gap */
+    align-items: flex-start;
 }
 
 /* SIDEBAR (PHOTO, INFO, LINKS) */
 
 .sidebar-container {
-    display: flex;
-    flex-direction: column;
-    /* width: 370px; */
+    flex: 0 0 360px; /* fixed width column */
+    max-width: 100%;
 }
 
 .photo-container {
-    width: 100%;
+    width: 65%;
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -80,6 +79,8 @@
 
 /* CONTENT (BIO, DETAILED INFO) */
 
-.bio {
+.content-container {
     line-height: 1.6;
+    flex: 1 1 400px; /* flexible, but has a minimum */
+    min-width: 0;
 }

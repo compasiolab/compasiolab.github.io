@@ -17,8 +17,9 @@
 }
 
 .team-img {
-    width: 90px;
-    height: 90px;
+    width: 25%;
+    max-width: 120px;
+    aspect-ratio: 1 / 1;  /* forces square */
     border-radius: 10px;
     object-fit: cover;
 }
