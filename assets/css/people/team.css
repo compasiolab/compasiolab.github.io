@@ -4,6 +4,12 @@
     gap: 40px 60px;
 }
 
+@media (max-width: 700px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .team-card {
     display: flex;
     align-items: flex-start;
