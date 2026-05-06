@@ -17,12 +17,14 @@ header {
   padding: 12px 20px;
   max-width: 1000px;
   margin: 0 auto;
+  gap: 15px 40px; /* row-gap column-gap */
 }
 
 /* LAB LOGO, NAME, SOCIAL ICONS */
 
 .logo-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 10px; /* space between logo and text */
 }
@@ -43,7 +45,7 @@ header h1 {
 .social-icons {
   display: flex;
   gap: 10px;
-  margin-left: 10px;
+  margin-left: 10px; /* add a bit more space between text and icons */
 }
 
 .social-icons a {
@@ -75,12 +77,12 @@ header h1 {
 
 /* NAVBAR */
 
-.logo-container,
 .navbar {
-  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* spacing between items */
 }
 
-/* Navbar links */
 .navbar a {
   font-family: 'Inter', sans-serif;
   text-transform: uppercase;
@@ -89,9 +91,9 @@ header h1 {
   font-size: 10pt;
 
   color: white;
-  margin-left: 20px;
   text-decoration: none;
 }
+
 .navbar a:hover {
   text-decoration: underline;
 }
