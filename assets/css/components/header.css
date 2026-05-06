@@ -2,7 +2,7 @@ header {
   position: sticky;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
 
   background-color: #7a7373;
   color: white;
@@ -10,6 +10,7 @@ header {
 
 .header-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 
@@ -73,6 +74,11 @@ header h1 {
 }
 
 /* NAVBAR */
+
+.logo-container,
+.navbar {
+  min-width: 0;
+}
 
 /* Navbar links */
 .navbar a {
