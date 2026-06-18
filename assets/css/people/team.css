@@ -38,6 +38,7 @@
 .team-info p {
     margin: 0 0 8px;
     font-size: 0.95rem;
+    text-align: left;
 }
 
 .team-icons {
