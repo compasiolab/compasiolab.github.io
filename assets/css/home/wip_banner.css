@@ -2,8 +2,12 @@
     text-align: center;
     font-size: 0.9rem;
     padding: 8px 12px;
+
     background: #fff3cd;
     color: #856404;
-    border-bottom: px solid #ffeeba;
+
+    border: 1px solid rgba(177, 134, 7, 0.699);
+    border-radius: 8px;
+
     margin-top: 1rem;
 }

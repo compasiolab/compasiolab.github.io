@@ -1,0 +1,31 @@
+.research-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.research-card {
+    flex: 1 1 400px;
+    max-width: 380px;
+    min-width: 300px;
+
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1.75rem;
+}
+
+.research-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #851857;
+}
+
+.research-card p {
+    margin: 0;
+    line-height: 1.2;
+    /* text-align: left; */
+    white-space: pre-line;
+}

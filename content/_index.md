@@ -18,4 +18,4 @@ The group’s activities are structured around three main directions:
 
 Our main goal is to build **interpretable computational frameworks** that can be used to explain disease mechanisms and support precision medicine.
 
-The group welcomes collaborations with researchers and clinicians interested in computational pathology, spatial biology, multi-modal data integration, and translational AI.
+>The group welcomes collaborations with researchers and clinicians interested in computational pathology, spatial biology, multi-modal data integration, and translational AI. Please see the contact page.

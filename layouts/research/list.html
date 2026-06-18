@@ -1,4 +1,22 @@
 {{ define "main" }}
+
     <h1>{{ .Title }}</h1>
-    <p>{{ .Content }}</p>
+
+    <div class="research-intro">
+        {{ .Content }}
+    </div>
+
+    <div class="research-grid">
+
+        {{ range .Params.research_areas }}
+
+            <div class="research-card">
+                <h3>{{ .title }}</h3>
+                <p>{{ .description }}</p>
+            </div>
+
+        {{ end }}
+
+    </div>
+
 {{ end }}

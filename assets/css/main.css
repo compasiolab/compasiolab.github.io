@@ -6,6 +6,7 @@
 @import "home/hero.css";
 @import "people/team_leader.css";
 @import "people/team.css";
+@import "research/research.css";
 @import "publications/publications.css";
 @import "contact/contact.css";
 
@@ -76,4 +77,26 @@ section {
 section:not(:first-child) {
   border-top: 1px solid #ddd;
   /* padding-top: 1rem; */
+}
+
+
+/* alternative, simpler styling for blockquote */
+/* blockquote {
+  border-left: 6px solid #ddd;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+  color: #444;
+} */
+
+blockquote {
+  /* margin-top: 3rem; */
+  padding: 0.1rem 1rem;
+  margin: 1rem 0;
+
+  border-left: 4px solid #851857;
+  background: #faf8fb;
+  border-radius: 0 10px px 0;
+
+  font-size: 1rem;
+  line-height: 1.6;
 }
