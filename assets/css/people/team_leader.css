@@ -12,12 +12,12 @@
 /* SIDEBAR (PHOTO, INFO, LINKS) */
 
 .sidebar-container {
-    flex: 0 0 360px; /* fixed width column */
+    flex: 0 0 300px; /* fixed width column */
     max-width: 100%;
 }
 
 .photo-container {
-    width: 65%;
+    width: 85%;
     display: flex;
     align-items: center;
     /* justify-content: center; */
