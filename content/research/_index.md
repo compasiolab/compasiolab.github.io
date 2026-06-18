@@ -1,3 +1,34 @@
 +++
 title = 'Research'
 +++
+
+Our research focuses on developing computational approaches to analyse tissue biology across multiple scales.
+
+We combine **artificial intelligence**, **computational pathology**, **spatial analysis**, and **multi-modal data integration** to generate **interpretable** and **clinically relevant** insights.
+
+Although cancer represents a major focus of the group, our methods are not disease-restricted.
+
+We are interested in applying computational pathology and spatially integrated analysis to a broader range of conditions where **tissue organization** and **molecular context** are important.
+
+Our main research areas are:
+
+- **Computational pathology**
+
+>We develop AI-based methods for the analysis of digitized histopathology and immunohistochemistry (IHC) images. These approaches aim to extract quantitative information from tissue samples and support phenotypic and molecular characterization.
+
+
+- **Spatial modelling of the tissue microenvironment**
+
+>A central interest of the group is the spatial organization of cells within tissues. We develop and apply computational pipelines to study how different cell populations interact with each other and with their surrounding microenvironment.
+
+
+- **Multi-modal and multi-scale integration**
+
+>We work on the spatial integration of pathology, radiology, molecular, spatial omics, and clinical data. This macro-to-micro perspective allows us to connect information from different biological and clinical scales, from whole-organ imaging to cellular and molecular tissue features.
+
+
+- **AI for precision medicine and clinical translation**
+
+>A key objective of the group is to move computational pathology methods closer to practical use in biomedical research and, where appropriate, clinical workflows.
+
+>By working within a hospital-based research setting, we can maintain a close dialogue between computational development and clinical needs, ensuring that our methods address relevant biomedical questions from the beginning.
