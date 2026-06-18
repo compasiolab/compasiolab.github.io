@@ -1,6 +1,7 @@
 @import "components/header.css";
 @import "components/footer.css";
 
+@import "home/wip_banner.css";
 @import "home/affiliations.css";
 @import "home/hero.css";
 @import "people/team_leader.css";

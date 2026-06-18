@@ -84,3 +84,7 @@
     flex: 1 1 400px; /* flexible, but has a minimum */
     min-width: 0;
 }
+
+.bio p {
+    margin: 0 0 1rem 0;
+}
