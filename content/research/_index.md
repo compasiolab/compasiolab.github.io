@@ -2,7 +2,7 @@
 title = "Research"
 
 [[research_areas]]
-title = "Artificial intelligence for computational pathology"
+title = "Computational pathology"
 description = """
 We develop AI-based methods for the analysis of digitized histopathology and immunohistochemistry (IHC) images. These approaches aim to extract quantitative information from tissue samples and support phenotypic and molecular characterization.
 """
