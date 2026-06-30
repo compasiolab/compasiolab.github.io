@@ -13,6 +13,14 @@
             <div class="research-card">
                 <h3>{{ .title }}</h3>
                 <p>{{ .description }}</p>
+                {{ with .image }}
+                    <img
+                        class="research-card-image"
+                        src="{{ . | relURL }}"
+                        alt=""
+                        loading="lazy"
+                    >
+                {{ end }}
             </div>
 
         {{ end }}
